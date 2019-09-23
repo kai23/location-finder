@@ -20,8 +20,6 @@ function HomePage() {
   const getLocations = useLifecycleSelector(key, 'getLocations');
   const locations = useSelector((store) => store[key].locations);
 
-  console.log('locations', JSON.stringify(locations, null, 2));
-
   useEffect(() => {
     dispatch(actions.getLocations());
   }, []);
@@ -30,9 +28,9 @@ function HomePage() {
     <div className="home">
       {getLocations.loading && (<p>Chargement des locations...</p>)}
       {getLocations.success && (
-        locations.map((l, i) => (
+        locations.map((l) => (
           <Location
-            key={i}
+            key={l.link}
             date={l.date}
             description={l.description}
             images={l.images}
