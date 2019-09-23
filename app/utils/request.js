@@ -45,15 +45,11 @@ function checkStatus(response, jsonResponse) {
  * @return {object}             The response data
  */
 export default function request(url, callOptions = null) {
-  const prefix = process.env.NODE_ENV === 'development' && url.startsWith('/')
-    ? process.env.API_URL
-    : '';
+  const prefix = process.env.API_URL;
   let pUrl = prefix + url;
   const options = {
     headers: {},
     mode: 'cors',
-    // credentials: 'include',
-
     ...callOptions,
   };
   // method is GET

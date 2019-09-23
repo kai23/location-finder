@@ -37,9 +37,9 @@ function HomePage() {
             description={l.description}
             images={l.images}
             link={l.link}
-            price={l.price}
-            rooms={l.rooms}
-            size={l.size}
+            price={parseInt(l.price, 10)}
+            rooms={parseInt(l.rooms, 10)}
+            size={parseInt(l.size, 10)}
             title={l.title}
           />
         ))
