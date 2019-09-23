@@ -1,0 +1,21 @@
+.location {
+  max-width: 100%;
+  margin: 20px;
+  border: 1px grey solid;
+  border-radius: 10px;
+
+  .description {
+    padding: 30px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px black solid;
+
+    div {
+      text-align: center;
+      border-right: 1px black solid;
+    }
+  }
+}

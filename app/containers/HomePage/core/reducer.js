@@ -10,7 +10,7 @@ import { LOCATION_CHANGE } from 'connected-react-router';
 import actionTypes from './actionTypes';
 
 const data = {
-  todos: [],
+  locations: [],
 };
 export const initialState = setInitialState(actionTypes, data);
 
@@ -19,14 +19,14 @@ function homeReducer(state = initialState, action) {
     // ////////////
     // GET_USERS
     // ////////////
-    case actionTypes.GET_TODOS_LOADING:
-      return setLoadingState(state, 'getTodos');
+    case actionTypes.GET_LOCATIONS_LOADING:
+      return setLoadingState(state, 'getLocations');
 
-    case actionTypes.GET_TODOS_SUCCESS:
-      return setSuccessState(state, 'getTodos', { todos: action.result });
+    case actionTypes.GET_LOCATIONS_SUCCESS:
+      return setSuccessState(state, 'getLocations', { locations: action.result });
 
-    case actionTypes.GET_TODOS_FAILED:
-      return setFailureState(state, 'getTodos', action.error.responseJSON);
+    case actionTypes.GET_LOCATIONS_FAILED:
+      return setFailureState(state, 'getLocations', action.error.responseJSON);
 
     case LOCATION_CHANGE:
       return { ...initialState };

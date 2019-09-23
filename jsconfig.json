@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": "./app",
+    "paths": {
+      "utils": ["./app/utils"],
+      "containers": ["./app/containers"],
+      "components": ["./app/components"]
+    }
+  }
+}

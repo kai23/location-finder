@@ -5,6 +5,7 @@ import injectReducer from 'utils/injectReducer';
 import injectSaga from 'utils/injectSaga';
 import { useDispatch, useSelector } from 'react-redux';
 import { useLifecycleSelector } from '@kai23/reduxutils';
+import Location from 'components/Location';
 
 import actions from './core/actions';
 import reducer from './core/reducer';
@@ -16,23 +17,33 @@ const key = 'home';
 
 function HomePage() {
   const dispatch = useDispatch();
-  const getTodos = useLifecycleSelector(key, 'getTodos');
-  const todos = useSelector((store) => store[key].todos);
+  const getLocations = useLifecycleSelector(key, 'getLocations');
+  const locations = useSelector((store) => store[key].locations);
+
+  console.log('locations', JSON.stringify(locations, null, 2));
 
   useEffect(() => {
-    dispatch(actions.getTodos());
+    dispatch(actions.getLocations());
   }, []);
 
   return (
     <div className="home">
-      <h1>
-        Example of todos GET
-
-        {getTodos.loading && (<p>Chargement des todos...</p>)}
-        {getTodos.success && (todos.map((todo) => (
-          <p>{todo.title}</p>
-        )))}
-      </h1>
+      {getLocations.loading && (<p>Chargement des locations...</p>)}
+      {getLocations.success && (
+        locations.map((l, i) => (
+          <Location
+            key={i}
+            date={l.date}
+            description={l.description}
+            images={l.images}
+            link={l.link}
+            price={l.price}
+            rooms={l.rooms}
+            size={l.size}
+            title={l.title}
+          />
+        ))
+      )}
     </div>
   );
 }
