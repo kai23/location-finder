@@ -75,7 +75,7 @@ function Location({
           posté il y a
           {' '}
           {formatDistance(parseISO(date), Date.now(), { locale: fr })}
-          {`sur ${providers[type]}`}
+          {` sur ${providers[type]}`}
         </div>
       ) : null}
       <div className="footer">
