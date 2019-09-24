@@ -6,7 +6,7 @@ import request from 'utils/request';
 import actions from './actions';
 
 import actionTypes from './actionTypes';
-// import mock from './mock.json';
+import mock from './mock.json';
 
 
 /**
@@ -15,10 +15,10 @@ import actionTypes from './actionTypes';
  * @yield {Object}
  */
 export function* getLocations() {
-  const requestURL = '/v1/locations?maxPrice=750&postalCode=31000&surfaceMin=45&roomNumber=2&isMeuble=false';
+  // const requestURL = '/v1/locations?maxPrice=750&postalCode=31000&surfaceMin=45&roomNumber=2&isMeuble=false';
   try {
-    const result = yield call(request, requestURL);
-    yield put(actions.onGetLocationsSuccess(result));
+    // const result = yield call(request, requestURL);
+    yield put(actions.onGetLocationsSuccess(mock));
   } catch (err) {
     yield put(actions.onGetLocationsFailed(err));
   }

@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { Collapse } from '@chakra-ui/core';
-import formatDistance from 'date-fns/formatDistance';
+import { Collapse, Button } from '@chakra-ui/core';
+import format from 'date-fns/format';
 import parseISO from 'date-fns/parseISO';
 import fr from 'date-fns/esm/locale/fr';
 import { MdEuroSymbol, MdRoom } from 'react-icons/md';
-import { FaRulerHorizontal, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaRulerHorizontal, FaExternalLinkAlt, FaRegCalendarAlt } from 'react-icons/fa';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+import Tag from 'components/Tag';
+
 
 import {
   CarouselProvider, Slider, Slide,
@@ -36,14 +39,11 @@ function Location({
 
   return (
     <div className="location">
-      <div className="header">
-        {title}
-      </div>
       {images && images.length && images[0] !== null ? (
         <div className="carousel">
           <CarouselProvider
             naturalSlideWidth={100}
-            naturalSlideHeight={125}
+            naturalSlideHeight={100}
             totalSlides={images.length}
           >
             <Slider>
@@ -59,44 +59,40 @@ function Location({
           </CarouselProvider>
         </div>
       ) : null}
+
+
       <div className="description">
-        <Collapse startingHeight={40} isOpen={showMore} onClick={() => setShowMore(!showMore)} dangerouslySetInnerHTML={{ __html: description }} />
-        <button
-          className="show-more"
-          onKeyPress={() => setShowMore(!showMore)}
-          onClick={() => setShowMore(!showMore)}
-          type="button"
-        >
-          {showMore ? 'En voir moins' : 'En voir plus'}
-        </button>
-      </div>
-      {date && date.length ? (
-        <div className="date">
-          posté il y a
-          {' '}
-          {formatDistance(parseISO(date), Date.now(), { locale: fr })}
-          {` sur ${providers[type]}`}
+        {date && date.length ? (
+          <div className="date">
+            <FaRegCalendarAlt size="1.1em" />
+            {`Le ${format(parseISO(date), 'dd/mm/yyyy', { locale: fr })}  sur `}
+            <a href={link}>
+              {providers[type]}
+            </a>
+            <FaExternalLinkAlt />
+          </div>
+        ) : null}
+        <Collapse className="description-content" startingHeight={40} isOpen={showMore} onClick={() => setShowMore(!showMore)} dangerouslySetInnerHTML={{ __html: description }} />
+        <div className="show-more-container">
+          <Button size="sm" onClick={() => setShowMore(!showMore)} mt="1rem">
+            {showMore ? 'Réduire' : 'Lire la description'}
+          </Button>
         </div>
-      ) : null}
-      <div className="footer">
-        <div className="price">
+      </div>
+
+      <div className="tag-list">
+        <Tag>
           <MdEuroSymbol />
           {price}
-        </div>
-        <div className="rooms">
+        </Tag>
+        <Tag>
           <MdRoom />
           {`${rooms} pièces`}
-        </div>
-        <div className="size">
+        </Tag>
+        <Tag>
           <FaRulerHorizontal />
           {`${size} m2`}
-        </div>
-        <div className="external">
-          <a href={link}>
-            <FaExternalLinkAlt />
-            Ouvrir
-          </a>
-        </div>
+        </Tag>
       </div>
     </div>
   );

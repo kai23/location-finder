@@ -1,0 +1,12 @@
+.tag {
+  border: 1px #8b8b8c solid;
+  border-radius: 25px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  svg {
+    margin-right: 5px;
+  }
+}

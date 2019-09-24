@@ -1,2 +1,55 @@
 .home {
+  height: 100%;
+  padding: 20px;
+
+  .loader {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .locations {
+
+    h5 {
+      text-align: center;
+    }
+    .results-filters {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.1rem;
+      margin: 10px 0;
+
+      .results-length {
+        color: #8b8b8c;
+      }
+
+      .filters {
+        border: 1px #8b8b8c solid;
+        border-radius: 25px;
+        padding: 5px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .filters-icon {
+          margin-right: 10px;
+        }
+        .filters-title {
+          margin-right: 10px;
+        }
+        .filters-length {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          background: #EBEBEB;
+          border-radius: 50%;
+          text-align: center;
+          width: 30px;
+          height: 30px;;
+        }
+      }
+    }
+  }
 }
