@@ -1,3 +1,5 @@
+@import '../../../colors';
+
 .home {
   height: 100%;
   padding: 20px;
@@ -22,11 +24,11 @@
       margin: 10px 0;
 
       .results-length {
-        color: #8b8b8c;
+        color: $grey-dark;
       }
 
       .filters {
-        border: 1px #8b8b8c solid;
+        border: 1px $grey-dark solid;
         border-radius: 25px;
         padding: 5px 10px;
         display: flex;

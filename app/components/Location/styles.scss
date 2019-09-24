@@ -1,6 +1,8 @@
+@import '../../colors';
+
 .location {
   max-width: 100%;
-  border: 1px #cacaca solid;
+  border: 1px $grey-lite solid;
 
   -webkit-box-shadow: 0px 12px 30px -10px rgba(139, 139, 140, 1);
   -moz-box-shadow: 0px 12px 30px -10px rgba(139, 139, 140, 1);
@@ -25,7 +27,6 @@
       margin-bottom: 10px;
       a {
         font-weight: bold;
-        color: #E6733E;
         text-decoration: none;
         margin-top: 2px;
       }
@@ -44,15 +45,5 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
-  .footer {
-    display: flex;
-    justify-content: space-around;
-    border-top: 1px black solid;
-
-    div {
-      text-align: center;
-      border-right: 1px black solid;
-    }
   }
 }

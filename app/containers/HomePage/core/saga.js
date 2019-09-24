@@ -15,12 +15,25 @@ import actionTypes from './actionTypes';
  * @yield {Object}
  */
 export function* getLocations() {
-  const requestURL = '/v1/locations?maxPrice=750&postalCode=31000&surfaceMin=45&roomNumber=2&isMeuble=false';
-  try {
-    const result = yield call(request, requestURL);
-    yield put(actions.onGetLocationsSuccess(result));
-  } catch (err) {
-    yield put(actions.onGetLocationsFailed(err));
+  const settingsRaw = localStorage.getItem('settings');
+  if (!settingsRaw) {
+    yield put(actions.onGetLocationsFailed({
+      responseJSON: {
+        type: 'no-settings',
+      },
+    }));
+  } else {
+    const settings = JSON.parse(settingsRaw);
+    const paramsArray = Object.keys(settings).map((key) => `${key}=${settings[key]}`);
+    const params = paramsArray.join('&');
+
+    const requestURL = `/v1/locations?${params}`;
+    try {
+      const result = yield call(request, requestURL);
+      yield put(actions.onGetLocationsSuccess(result));
+    } catch (err) {
+      yield put(actions.onGetLocationsFailed(err));
+    }
   }
 }
 

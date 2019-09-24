@@ -11,12 +11,16 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import HomePage from 'containers/HomePage/Loadable';
+import FiltersPage from 'containers/Filters/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
 export default function App() {
   return (
-    <Switch>
+    <Switch
+      className="route-wrapper"
+    >
       <Route exact path="/" component={HomePage} />
+      <Route path="/filters" component={FiltersPage} />
       <Route component={NotFoundPage} />
     </Switch>
   );
