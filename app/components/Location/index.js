@@ -19,9 +19,18 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 import './styles.scss';
 
 const providers = {
-  lbc: 'LeBonCoin',
-  bienici: "Bien'ici",
-  seloger: 'Se Loger',
+  lbc: {
+    name: 'LeBonCoin',
+    color: '#E6733E',
+  },
+  bienici: {
+    name: "Bien'ici",
+    color: '#F6BB43',
+  },
+  'se-loger': {
+    name: 'Se Loger',
+    color: '#CF2C3B',
+  },
 };
 
 function Location({
@@ -65,13 +74,15 @@ function Location({
         {date && date.length ? (
           <div className="date">
             <FaRegCalendarAlt size="1.1em" />
-            {`Le ${format(parseISO(date), 'dd/mm/yyyy', { locale: fr })}  sur `}
-            <a href={link}>
-              {providers[type]}
-            </a>
-            <FaExternalLinkAlt />
+            {`Le ${format(parseISO(date), 'd/MM/y à HH:mm')}`}
           </div>
         ) : null}
+        <div className="provider">
+          <FaExternalLinkAlt size="1.1em" />
+          <a href={link} style={{ color: providers[type].color }}>
+            {providers[type].name}
+          </a>
+        </div>
         <Collapse className="description-content" startingHeight={40} isOpen={showMore} onClick={() => setShowMore(!showMore)} dangerouslySetInnerHTML={{ __html: description }} />
         <div className="show-more-container">
           <Button size="sm" onClick={() => setShowMore(!showMore)} mt="1rem">

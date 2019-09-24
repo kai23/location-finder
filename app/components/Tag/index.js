@@ -12,7 +12,7 @@ function Tag({ children }) {
 }
 
 Tag.propTypes = {
-  text: PropTypes.string.isRequired,
+  children: PropTypes.array.isRequired,
 };
 
 export default Tag;

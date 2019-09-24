@@ -11,20 +11,23 @@
 
   .description {
     padding: 20px 30px;
+    svg {
+      margin-right: 10px;
+    }
 
     .date {
       display: flex;
       align-items: center;
+    }
+    .provider {
+      display: flex;
+      align-items: center;
       margin-bottom: 10px;
-      svg {
-        margin-right: 10px;
-      }
       a {
         font-weight: bold;
-        color: #8b8b8c;
+        color: #E6733E;
         text-decoration: none;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-top: 2px;
       }
     }
   }
