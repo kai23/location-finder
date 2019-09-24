@@ -15,6 +15,12 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 
 import './styles.scss';
 
+const providers = {
+  lbc: 'LeBonCoin',
+  bienici: "Bien'ici",
+  seloger: 'Se Loger',
+};
+
 function Location({
   date,
   description,
@@ -24,6 +30,7 @@ function Location({
   rooms,
   size,
   title,
+  type,
 }) {
   const [showMore, setShowMore] = useState(false);
 
@@ -68,6 +75,7 @@ function Location({
           posté il y a
           {' '}
           {formatDistance(parseISO(date), Date.now(), { locale: fr })}
+          {`sur ${providers[type]}`}
         </div>
       ) : null}
       <div className="footer">
@@ -103,6 +111,7 @@ Location.propTypes = {
   date: PropTypes.string.isRequired,
   size: PropTypes.number.isRequired,
   rooms: PropTypes.number.isRequired,
+  type: PropTypes.string.isRequired,
 };
 
 Location.defaultProps = {

@@ -39,6 +39,7 @@ function HomePage() {
             rooms={parseInt(l.rooms, 10)}
             size={parseInt(l.size, 10)}
             title={l.title}
+            type={l.type}
           />
         ))
       )}
