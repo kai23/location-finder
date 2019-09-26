@@ -47,7 +47,7 @@ function Location({
       <LazyLoad height={200}>
         {images && images.length && images[0] !== null ? (
           <div className="carousel">
-            <Carousel emulateTouch showIndicators={false} dynamicHeight centerMode centerSlidePercentage={90}>
+            <Carousel emulateTouch showIndicators={false} dynamicHeight>
               {images.map((img, i) => (
                 <img
                   key={`${title}`}
