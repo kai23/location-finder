@@ -22,7 +22,6 @@ import saga from './core/saga';
 import './assets/styles.scss';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 
-
 const key = 'home';
 
 function HomePage() {

@@ -3,18 +3,14 @@ import PropTypes from 'prop-types';
 import { Collapse, Button } from '@chakra-ui/core';
 import format from 'date-fns/format';
 import parseISO from 'date-fns/parseISO';
-import fr from 'date-fns/esm/locale/fr';
+import LazyLoad from 'react-lazyload';
 import { MdEuroSymbol, MdRoom } from 'react-icons/md';
 import { FaRulerHorizontal, FaExternalLinkAlt, FaRegCalendarAlt } from 'react-icons/fa';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import Tag from 'components/Tag';
 
-
-import {
-  CarouselProvider, Slider, Slide,
-} from 'pure-react-carousel';
-import 'pure-react-carousel/dist/react-carousel.es.css';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import './styles.scss';
 
@@ -48,26 +44,21 @@ function Location({
 
   return (
     <div className="location">
-      {images && images.length && images[0] !== null ? (
-        <div className="carousel">
-          <CarouselProvider
-            naturalSlideWidth={100}
-            naturalSlideHeight={100}
-            totalSlides={images.length}
-          >
-            <Slider>
+      <LazyLoad height={200}>
+        {images && images.length && images[0] !== null ? (
+          <div className="carousel">
+            <Carousel emulateTouch showIndicators={false} dynamicHeight centerMode centerSlidePercentage={90}>
               {images.map((img, i) => (
-                <Slide index={i}>
-                  <LazyLoadImage
-                    alt={`${title}-img-${i}`}
-                    src={img}
-                  />
-                </Slide>
+                <img
+                  key={`${title}`}
+                  alt={`${title}-img-${i}`}
+                  src={img}
+                />
               ))}
-            </Slider>
-          </CarouselProvider>
-        </div>
-      ) : null}
+            </Carousel>
+          </div>
+        ) : null}
+      </LazyLoad>
 
 
       <div className="description">
