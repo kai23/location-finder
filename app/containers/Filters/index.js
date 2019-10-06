@@ -9,6 +9,7 @@ import providers from 'utils/providers';
 
 import { FaChevronLeft } from 'react-icons/fa';
 import { push } from 'connected-react-router';
+import InputChips from 'components/InputChips/index';
 
 const defaultSettings = {
   maxPrice: 0,
@@ -17,6 +18,7 @@ const defaultSettings = {
   roomNumber: 0,
   isMeuble: false,
   provider: [],
+  blacklist: '',
 };
 
 function Filters() {
@@ -36,6 +38,8 @@ function Filters() {
   const [roomNumber, setRoomNumber] = useState(settings.roomNumber || 1);
   const [isMeuble, setIsMeuble] = useState(settings.isMeuble || false);
   const [provider, setProvider] = useState(settings.provider || []);
+  const [blacklist, setBlackList] = useState(settings.blacklist || '');
+
   const [saved, setSaved] = useState(false);
 
 
@@ -48,6 +52,7 @@ function Filters() {
       roomNumber,
       isMeuble,
       provider,
+      blacklist,
     };
     if (JSON.stringify(newSettings) !== JSON.stringify(settings)) {
       localStorage.setItem('settings', JSON.stringify(newSettings));
@@ -57,7 +62,7 @@ function Filters() {
         setSaved(false);
       }, 500);
     }
-  }, [maxPrice, postalCode, surfaceMin, roomNumber, isMeuble, provider]);
+  }, [maxPrice, postalCode, surfaceMin, roomNumber, isMeuble, provider, blacklist]);
 
   return (
     <div
@@ -111,6 +116,10 @@ function Filters() {
           <span className="switch-left">Non</span>
           <Switch id="email-alerts" size="lg" isChecked={isMeuble} onChange={() => setIsMeuble(!isMeuble)} />
           <span className="switch-right">Oui</span>
+        </div>
+        <div className="form-item">
+          <h4>Mots interdits</h4>
+          <InputChips value={blacklist} onChange={(v) => setBlackList(v)} />
         </div>
         <div className="form-item">
           <h4>Sites</h4>

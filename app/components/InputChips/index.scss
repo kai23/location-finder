@@ -1,0 +1,22 @@
+.chips-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.chips {
+  background: #37b13b;
+  color: white;
+  border-radius: 25px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+
+  span {
+    margin-right: 10px;
+  }
+  
+  &:not(:first-child) {
+    margin-left: 10px;
+  }
+
+}
