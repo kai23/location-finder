@@ -1,5 +1,25 @@
 [
     {
+        "title": "Appartement",
+        "description": "T2 de 55 m², entièrement refait à neuf, situé dans le quartier Marengo au pied de la Médiathèque et des allées Jean Jaurès.\n Ce logement en Duplex, se compose d'un 1er niveau en étage, avec un séjour, une cuisine aménagée et équipée, et au rez-de-chaussée, une grande chambre de 19 m² ainsi qu'une salle d'eau avec WC.\n L'appartement donne sur cour, au calme, et bénéfice de belles prestations (hauteur sous plafond, murs en briques, lumineux, double vitrage,..).\n Disponible immédiatement. A visiter rapidement !\nHonoraires TTC en sus : 475.2 €.\nGarantie : 720 €.",
+        "link": "https://www.seloger.com/annonces/locations/appartement/toulouse-31/151946263.htm?p=",
+        "images": [
+            "https://v.seloger.com/s/width/800/visuels/1/s/8/i/1s8in6ksb7p36nym613ujwr4kgu38hq3o0pm01wkg.jpg",
+            "https://v.seloger.com/s/height/800/visuels/1/p/b/u/1pbu6vj4djv063357k7harelgqsernnzv9rwz0seu.jpg",
+            "https://v.seloger.com/s/width/800/visuels/1/f/n/3/1fn3ga75u2ox3zxcarfafsvbrahvs2ekwhegbkobk.jpg",
+            "https://v.seloger.com/s/height/800/visuels/1/k/b/g/1kbg9tn9ejatjhvhpo6758s7nvez70xxidn4gdmfq.jpg",
+            "https://v.seloger.com/s/width/800/visuels/1/m/l/d/1mldr93uanng6d8a13yxa2splsrambn1n1x7ehfkw.jpg",
+            "https://v.seloger.com/s/height/800/visuels/2/5/3/0/2530njp7lnwuonz12syfldgxgntb73gi329ckc72u.jpg"
+        ],
+        "price": 767,
+        "date": "2019-10-08T15:39:00",
+        "size": 55,
+        "rooms": 2,
+        "type": "se-loger",
+        "lat": 0,
+        "lng": 0
+    },
+    {
         "title": "Appartement 3 pièces 68 m²",
         "description": "Au coeur de l'Ouest Toulousain- Ancien site du tri postal- Nouvel Eco-quartier de Lardenne-  Le Bosquet d'Arduenna immeuble neuf Icade comstitué de petits collectifs de 3 étages sis 25 Chemin de Bordeblanche- A 2 pas des commerces, écoles et services de proximité- Parfaitement desservi par les transports (à 5mn  gare Ter + ligne de métro A)- Appt  traversant au 2° étage: Belle entrée- Grand séjour d'angle (33m²)+ coin cuisine équipée sur balcon (10m²)  exposé Sud- Dégagement- wc séparés- Salle de bains aménagée- 2 chambres (10m²  11m²) avec placard- Parking privatif- Prestations soignées: Vidéophone- Murs peinture lisse- Sol carrelage- Larges baies- Volets roulants- Chauffage individuel gaz- Calme (sur intérieur résidence)- Disponibilité immédiate- Votre contact 05 61 42 82 19.\nRéférence annonce : 023060022\nHonoraires à la charge du locataire : 882 € TTC\nDépôt de garantie : 645 €",
         "link": "https://www.leboncoin.fr/locations/1687200291.htm",
@@ -24,6 +44,28 @@
         "lng": 1.44067
     },
     {
+        "title": "T2  Duplex Rénové - 55 m2 - Quartier Marengo - Toulouse",
+        "description": "T2 de 55m2, entièrement refait à neuf, situé dans le quartier Marengo au pied de la Médiathèque et des allées Jean Jaurés. <br> Ce logement en Duplex, se compose d'un 1er niveau en étage, avec un séjour, une cuisine aménagée et équipée, et au rez-de-chaussée, une grande chambre de 19m2 ainsi qu'une salle d'eau avec WC. <br> L'appartement donne sur cour, au calme, et bénéfice de belles prestations (hauteur sous plafond, murs en briques, lumineux, double vitrage, ...). <br> Disponible immédiatement. A visiter rapidement ! <br>  <br>  <br>",
+        "link": "https://www.bienici.com/annonce/hektor-selectionfaivre-19471",
+        "images": [
+            "https://file.bienici.com/photo/hektor-selectionfaivre-19471_photo_525c1308a1d5607336469087f5cb15d1.jpg",
+            "https://file.bienici.com/photo/hektor-selectionfaivre-19471_photo_62004e2e70e3adb30e164516757359d1.jpg",
+            "https://file.bienici.com/photo/hektor-selectionfaivre-19471_photo_101eb8fb08d2d248f0ded49964e905d0.jpg",
+            "https://file.bienici.com/photo/hektor-selectionfaivre-19471_photo_0d46ac989ab2b0755370c7f7058d0fdf.jpg",
+            "https://file.bienici.com/photo/hektor-selectionfaivre-19471_photo_f3a626639d986eceb1315a664a694960.jpg",
+            "https://file.bienici.com/photo/hektor-selectionfaivre-19471_photo_9e772f16d81ab841a2727a5819d2dd0b.jpg",
+            "https://file.bienici.com/photo/hektor-selectionfaivre-19471_photo_986f86ff08aea04e80e9ef84a2685638.jpg",
+            "https://file.bienici.com/photo/hektor-selectionfaivre-19471_photo_cd34f47cb4d64a351e5e1c5acd5b8790.jpg"
+        ],
+        "price": 767,
+        "date": "2019-10-08T12:27:15.983Z",
+        "size": 55,
+        "rooms": 2,
+        "lat": 43.607617937082466,
+        "lng": 1.4596347430060246,
+        "type": "bienici"
+    },
+    {
         "title": "Appartement",
         "description": "Saint Michel, proximité métro, dans immeuble récent, T2 en étage avec ascenseur et vue dégagée. Parking extérieur privatif comprenant: entrée, séjour avec coin cuisine, chambre, salle de bains\nAssurance Multirisques Privilège *: 10.43 euros / mois\n*Services facultatifs, voir conditions en agences.\nHonoraires TTC en sus : 644.8 €.\nGarantie : 567 €.\nDisponible le 08/11/2019.",
         "link": "https://www.seloger.com/annonces/locations/appartement/toulouse-31/saint-michel-le-busca-empalot-saint-agne/151942073.htm?p=",
@@ -41,6 +83,28 @@
         "type": "se-loger",
         "lat": 43.58614,
         "lng": 1.44639
+    },
+    {
+        "title": "Appartement neuf",
+        "description": "ST EXUPERY - L'ORMEAU T3 BBC 63 M² dans résidence neuve\r\nL'appartement se composee d'une entrée avec placard, un séjour, une cuisine ouverte aménagée, deux chambres avec placard, une salle de bain et un WC indépendant. Il dispose d'une terrasse en bois 10 m² exposée sud-est avec vue arborée et d'un parking sous-sol.Le chauffage est individuel gaz.\r\nDISPONIBLE\r\nLoyer mensuel 680 € + provision mensuel 90 € soit 770 € charges comprises",
+        "link": "https://www.bienici.com/annonce/ag310003-219951108",
+        "images": [
+            "https://file.bienici.com/photo/ag310003-219951108_1.jpg",
+            "https://file.bienici.com/photo/ag310003-219951108_2.jpg",
+            "https://file.bienici.com/photo/ag310003-219951108_3.jpg",
+            "https://file.bienici.com/photo/ag310003-219951108_4.jpg",
+            "https://file.bienici.com/photo/ag310003-219951108_5.jpg",
+            "https://file.bienici.com/photo/ag310003-219951108_6.jpg",
+            "https://file.bienici.com/photo/ag310003-219951108_7.jpg",
+            "https://file.bienici.com/photo/ag310003-219951108_8.jpg"
+        ],
+        "price": 770,
+        "date": "2019-10-08T10:12:49.930Z",
+        "size": 63,
+        "rooms": 3,
+        "lat": 43.583242435144435,
+        "lng": 1.4714000265929927,
+        "type": "bienici"
     },
     {
         "title": "",
@@ -427,25 +491,20 @@
         "lng": 1.388734
     },
     {
-        "title": "A LOUER APPARTEMENT DE TYPE T2 TOULOUSE SECTEUR  TOURNEFEUIL",
-        "description": "A LOUER T2 TOULOUSE SECTEUR TOURNEFEUILLE- SAINT SIMON - LA RAMEE ,Résidence en BBC logement logement situé au 3 ème étage composé d'une cuisine ouverte aménagé avec plaque de cuisson, hotte aspirante, frigo, meuble de rangements hauts et bas,  donnant sur séjour, une chambre avec placard aménagé, une salle de bain équipée avec radiateur sèche serviette. ,Un balcon, un emplacement de parking. ,<br> Chauffage gaz individuel<br> Situé à proximité de la rocade, et de la zone verte de la Ramée ,<br> Possibilité de prendre des garants physiques selon les dossiers<br> Frais de rédaction de bail, visite et état des lieux entrant",
-        "link": "https://www.bienici.com/annonce/hektor-TOULOUSE-9755",
+        "title": "Appartement 3 pièces 62 m²",
+        "description": "700 € Hc, F3 PROCHE CENTRE ET MÉTRO DANS RÉSIDENCE\n\nTrÈs proche centre et mÉtro , 700 € Hc, Dans rÉsidence sÉcurisÉe et bien entretenue , appartement F3 calme et clair, proche mÉtro et toutes commoditÉs, Colocation acceptÉe, local 2 roues et interphone. ref 3104237. Loyer 700 €+60 € soit 760 € CC, caution 1 mois, DPE E/C Honoraires 200 €. Le club de l'immo Toulouse\nRéférence annonce : 3104237-41\nHonoraires à la charge du locataire : 200 € TTC\nMontant des charges : 60 € / mois",
+        "link": "https://www.leboncoin.fr/locations/1686565582.htm",
         "images": [
-            "https://file.bienici.com/photo/hektor-TOULOUSE-9755_0db2824d49f51c75c28cbcf3bf110bc0.jpg",
-            "https://file.bienici.com/photo/hektor-TOULOUSE-9755_d1b362cfd7cb306af85e7e42ae0efe75.jpg",
-            "https://file.bienici.com/photo/hektor-TOULOUSE-9755_645923c066c50043c5a5b1a0aee59de2.jpg",
-            "https://file.bienici.com/photo/hektor-TOULOUSE-9755_3c07fd4ce53b7a166ae3ea101bc3f95b.jpg",
-            "https://file.bienici.com/photo/hektor-TOULOUSE-9755_b56568aa294fa9232aee232c1a4ec7fc.jpg",
-            "https://file.bienici.com/photo/hektor-TOULOUSE-9755_244e079e9bfcb48ee8f11399f73884c4.jpg",
-            "https://file.bienici.com/photo/hektor-TOULOUSE-9755_photo_18a356c9cdf26a26ade52f9ef33eabc2.jpg"
+            "https://img5.leboncoin.fr/ad-image/d98c2fd3136b30467fca8938eecdfd5bdfb220dc.jpg"
         ],
-        "price": 555,
-        "date": "2019-10-06T15:30:40.959Z",
-        "size": 46,
-        "rooms": 2,
-        "lat": 43.57974973616805,
-        "lng": 1.362080571390736,
-        "type": "bienici"
+        "price": 760,
+        "date": "2019-10-07T07:25:25.000Z",
+        "date_index": "2019-10-07T07:25:25.000Z",
+        "size": "62",
+        "rooms": "3",
+        "type": "lbc",
+        "lat": 43.6041,
+        "lng": 1.44067
     },
     {
         "title": "A LOUER APPARTEMENT 3 PIECES TOULOUSE SAINT SIMON PROXIMITÉ",
@@ -469,6 +528,27 @@
         "rooms": 3,
         "lat": 43.55443892701708,
         "lng": 1.3744716646742687,
+        "type": "bienici"
+    },
+    {
+        "title": "A LOUER APPARTEMENT DE TYPE T2 TOULOUSE SECTEUR  TOURNEFEUIL",
+        "description": "A LOUER T2 TOULOUSE SECTEUR TOURNEFEUILLE- SAINT SIMON - LA RAMEE ,Résidence en BBC logement logement situé au 3 ème étage composé d'une cuisine ouverte aménagé avec plaque de cuisson, hotte aspirante, frigo, meuble de rangements hauts et bas,  donnant sur séjour, une chambre avec placard aménagé, une salle de bain équipée avec radiateur sèche serviette. ,Un balcon, un emplacement de parking. ,<br> Chauffage gaz individuel<br> Situé à proximité de la rocade, et de la zone verte de la Ramée ,<br> Possibilité de prendre des garants physiques selon les dossiers<br> Frais de rédaction de bail, visite et état des lieux entrant",
+        "link": "https://www.bienici.com/annonce/hektor-TOULOUSE-9755",
+        "images": [
+            "https://file.bienici.com/photo/hektor-TOULOUSE-9755_0db2824d49f51c75c28cbcf3bf110bc0.jpg",
+            "https://file.bienici.com/photo/hektor-TOULOUSE-9755_d1b362cfd7cb306af85e7e42ae0efe75.jpg",
+            "https://file.bienici.com/photo/hektor-TOULOUSE-9755_645923c066c50043c5a5b1a0aee59de2.jpg",
+            "https://file.bienici.com/photo/hektor-TOULOUSE-9755_3c07fd4ce53b7a166ae3ea101bc3f95b.jpg",
+            "https://file.bienici.com/photo/hektor-TOULOUSE-9755_b56568aa294fa9232aee232c1a4ec7fc.jpg",
+            "https://file.bienici.com/photo/hektor-TOULOUSE-9755_244e079e9bfcb48ee8f11399f73884c4.jpg",
+            "https://file.bienici.com/photo/hektor-TOULOUSE-9755_photo_18a356c9cdf26a26ade52f9ef33eabc2.jpg"
+        ],
+        "price": 555,
+        "date": "2019-10-06T15:30:40.959Z",
+        "size": 46,
+        "rooms": 2,
+        "lat": 43.57974973616805,
+        "lng": 1.362080571390736,
         "type": "bienici"
     },
     {
@@ -591,27 +671,42 @@
         "lng": 1.43395
     },
     {
-        "title": "Location Appartement 45 m² à Toulouse 538 € CC /mois",
-        "description": "GRANDES PIECES - GRAND BALCON DE 9 m² - AU CALME - TOUTES COMMODITES - Route de Launaguet - A LOUER T2 TOULOUSE / Route de Launaguet. Dans une résidence récente aux normes BBC, GRAND T2 de 45 m² situé au coeur d'un quartier vivant, riche de ses commerces, écoles, espaces verts tel que le Lac de Sesquières. Au 1er étage / 3, loin de la rue, ce beau T2 dispose d'un séjour de 21 m² ouvrant sur un GRAND balcon ENSOLEILLE de 9 m². Cuisine ouverte et équipée. 1 GRANDE chambre de 14 m² avec placard. Salle d'eau avec WC. 1 Parking attitré en sous-sol. Loyer 538 € dont 50 € de provisions sur charges. Honoraires d'agence 585 € dont 135 € d'état des lieux. LOCATION T2 avec garant accepté sous conditions. N'hésitez pas à nous contacter au <span class=\"importDescriptionDecorator\" data-type=\"phone\">05 62 30 49 30</span> pour toute demande de visite. Retrouvez l'adresse précise de ce bien sur <span class=\"importDescriptionDecorator\" data-url=\"www.soprim.com\" data-type=\"basicUrl\">www.soprim.com</span>, réf 01453052-429. Loyer de 538,00 euros par mois charges comprises dont 50,00 euros par mois de provision pour charges - régularisation annuelle. Les honoraires charge locataire sont de 585,00 euros (soit 13,00 euros / m²) dont 135,00 euros pour état des lieux (soit 3,00 euros / m² ).",
-        "link": "https://www.bienici.com/annonce/gedeon-20123530",
+        "title": "",
+        "description": "Située en plein coeur du quartier Purpan, à l'Ouest du centre-ville Toulousain, notre résidence est à proximité de toutes les commodités : commerces, activités de loisirs, écoles, réseau de bus, rocade, à 300 mètres de l'arrêt de tramway AncelyArènes Romaines. Nous vous proposons un appartement T3 doté de prestations de qualité : cuisine ouverte et équipée (meubles hautbas, hotte aspirante, plaque 4 feux, emplacement lave-vaisselle et lave-linge sous plan de travail, emplacement réfrigérateur 220L), séjour ouvrant sur balcon, salle de bains aménagée, WC séparé, 2 chambres avec parquet dont une avec placard, parking sous-sol, interphone et ascenseur. Eau et chauffage provisionnés dans les charges. Louez un logement avec Elyade et bénéficiez gratuitement pendant 1 mois d'ALLOLILY, le service de conciergerie privée accessible à tous (sans obligation de souscription) ! Pour plus d'informations, contactez notre agence. Mandat 5172. Possibilité Loca-Pass. Voir conditions en agence. VISITES ET RESERVATIONS <span class=\"importDescriptionDecorator\" data-type=\"phone\">09.72.391.390</span>* (*Appel non surtaxé) ou <span class=\"importDescriptionDecorator\" data-type=\"email\">location@elyade.com</span>",
+        "link": "https://www.bienici.com/annonce/fnaim-44290551",
         "images": [
-            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_0",
-            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_1",
-            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_2",
-            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_3",
-            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_4",
-            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_5",
-            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_6",
-            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_7",
-            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_8",
-            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_9"
+            "https://file.bienici.com/photo/fnaim-44290551_90966300010387T01.jpg",
+            "https://file.bienici.com/photo/fnaim-44290551_90966300010387T02.jpg",
+            "https://file.bienici.com/photo/fnaim-44290551_90966300010387T03.jpg",
+            "https://file.bienici.com/photo/fnaim-44290551_90966300010387T04.jpg",
+            "https://file.bienici.com/photo/fnaim-44290551_90966300010387T05.jpg",
+            "https://file.bienici.com/photo/fnaim-44290551_90966300010387T06.jpg",
+            "https://file.bienici.com/photo/fnaim-44290551_90966300010387T07.jpg",
+            "https://file.bienici.com/photo/fnaim-44290551_90966300010387T08.jpg",
+            "https://file.bienici.com/photo/fnaim-44290551_90966300010387T09.jpg",
+            "https://file.bienici.com/photo/fnaim-44290551_90966300010387T10.jpg"
         ],
-        "price": 538,
+        "price": 760,
+        "date": "2019-10-05T06:57:03.680Z",
+        "size": 61,
+        "rooms": 3,
+        "lat": 43.61716144583895,
+        "lng": 1.3954333717730167,
+        "type": "bienici"
+    },
+    {
+        "title": "Location Appartement 69 m² à Toulouse 734 € CC /mois",
+        "description": "T3 - GRAND SEJOUR ET GRAND BALCON - PARKING EN SOUS-SOL - Montaudran - A LOUER BEAU T3 TOULOUSE / MONTAUDRAN - GRAND SEJOUR - GRAND BALCON. Secteur PLACE DE L'ORMEAU, proches des commerces, transports et accès rocade. Dans une résidence récente, T3 avec GRAND séjour de 28 m² ouvrant sur 1 GRAND balcon de 6 m². Cuisine ouverte équipée. 2 GRANDES chambres dont une avec placard. 1 salle de bain. WC séparés. 1 emplacement parking exterieur dans résidence fermée. Loyer 734 € dont 82 € de provisions sur charges. Honoraires d'agence 658 € dont 208 € d'état des lieux. Retrouvez l'adresse exacte de ce bien sur <span class=\"importDescriptionDecorator\" data-url=\"www.soprim.com\" data-type=\"basicUrl\">www.soprim.com</span> réf : 01230012-429. Pour toute demande de visite n'hésitez pas à nous contacter au <span class=\"importDescriptionDecorator\" data-type=\"phone\">05 62 30 49 30</span>. Loyer de 734,00 euros par mois charges comprises dont 82,00 euros par mois de provision pour charges - régularisation annuelle. Les honoraires charge locataire sont de 658,00 euros (soit 9,47 euros / m²) dont 208,00 euros pour état des lieux (soit 2,99 euros / m² ).",
+        "link": "https://www.bienici.com/annonce/gedeon-20123528",
+        "images": [
+            "https://file.bienici.com/photo/gedeon-20123528_biens_20123528_0"
+        ],
+        "price": 734,
         "date": "2019-10-05T06:23:33.979Z",
-        "size": 45,
-        "rooms": 2,
-        "lat": 43.65232756810241,
-        "lng": 1.4382651517406582,
+        "size": 69,
+        "rooms": 3,
+        "lat": 43.57520729158711,
+        "lng": 1.4883952338927655,
         "type": "bienici"
     },
     {
@@ -635,18 +730,27 @@
         "type": "bienici"
     },
     {
-        "title": "Location Appartement 69 m² à Toulouse 734 € CC /mois",
-        "description": "T3 - GRAND SEJOUR ET GRAND BALCON - PARKING EN SOUS-SOL - Montaudran - A LOUER BEAU T3 TOULOUSE / MONTAUDRAN - GRAND SEJOUR - GRAND BALCON. Secteur PLACE DE L'ORMEAU, proches des commerces, transports et accès rocade. Dans une résidence récente, T3 avec GRAND séjour de 28 m² ouvrant sur 1 GRAND balcon de 6 m². Cuisine ouverte équipée. 2 GRANDES chambres dont une avec placard. 1 salle de bain. WC séparés. 1 emplacement parking exterieur dans résidence fermée. Loyer 734 € dont 82 € de provisions sur charges. Honoraires d'agence 658 € dont 208 € d'état des lieux. Retrouvez l'adresse exacte de ce bien sur <span class=\"importDescriptionDecorator\" data-url=\"www.soprim.com\" data-type=\"basicUrl\">www.soprim.com</span> réf : 01230012-429. Pour toute demande de visite n'hésitez pas à nous contacter au <span class=\"importDescriptionDecorator\" data-type=\"phone\">05 62 30 49 30</span>. Loyer de 734,00 euros par mois charges comprises dont 82,00 euros par mois de provision pour charges - régularisation annuelle. Les honoraires charge locataire sont de 658,00 euros (soit 9,47 euros / m²) dont 208,00 euros pour état des lieux (soit 2,99 euros / m² ).",
-        "link": "https://www.bienici.com/annonce/gedeon-20123528",
+        "title": "Location Appartement 45 m² à Toulouse 538 € CC /mois",
+        "description": "GRANDES PIECES - GRAND BALCON DE 9 m² - AU CALME - TOUTES COMMODITES - Route de Launaguet - A LOUER T2 TOULOUSE / Route de Launaguet. Dans une résidence récente aux normes BBC, GRAND T2 de 45 m² situé au coeur d'un quartier vivant, riche de ses commerces, écoles, espaces verts tel que le Lac de Sesquières. Au 1er étage / 3, loin de la rue, ce beau T2 dispose d'un séjour de 21 m² ouvrant sur un GRAND balcon ENSOLEILLE de 9 m². Cuisine ouverte et équipée. 1 GRANDE chambre de 14 m² avec placard. Salle d'eau avec WC. 1 Parking attitré en sous-sol. Loyer 538 € dont 50 € de provisions sur charges. Honoraires d'agence 585 € dont 135 € d'état des lieux. LOCATION T2 avec garant accepté sous conditions. N'hésitez pas à nous contacter au <span class=\"importDescriptionDecorator\" data-type=\"phone\">05 62 30 49 30</span> pour toute demande de visite. Retrouvez l'adresse précise de ce bien sur <span class=\"importDescriptionDecorator\" data-url=\"www.soprim.com\" data-type=\"basicUrl\">www.soprim.com</span>, réf 01453052-429. Loyer de 538,00 euros par mois charges comprises dont 50,00 euros par mois de provision pour charges - régularisation annuelle. Les honoraires charge locataire sont de 585,00 euros (soit 13,00 euros / m²) dont 135,00 euros pour état des lieux (soit 3,00 euros / m² ).",
+        "link": "https://www.bienici.com/annonce/gedeon-20123530",
         "images": [
-            "https://file.bienici.com/photo/gedeon-20123528_biens_20123528_0"
+            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_0",
+            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_1",
+            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_2",
+            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_3",
+            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_4",
+            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_5",
+            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_6",
+            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_7",
+            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_8",
+            "https://file.bienici.com/photo/gedeon-20123530_biens_20123530_9"
         ],
-        "price": 734,
+        "price": 538,
         "date": "2019-10-05T06:23:33.979Z",
-        "size": 69,
-        "rooms": 3,
-        "lat": 43.57520729158711,
-        "lng": 1.4883952338927655,
+        "size": 45,
+        "rooms": 2,
+        "lat": 43.65232756810241,
+        "lng": 1.4382651517406582,
         "type": "bienici"
     },
     {
@@ -732,21 +836,6 @@
         "type": "bienici"
     },
     {
-        "title": "Appartement Type 2",
-        "description": "LA ROSERAIE, dans petite copropriété calme à 5 minutes du métro, agréable appartement deux pièces duplex lumineux, cuisine ouverte sur séjour, mezzanine, parking. Chauffage électrique.  déposer votre dossier de candidature en ligne sur notre site nexity, vous y trouverez cette annonce.",
-        "link": "https://www.bienici.com/annonce/nexity-417727",
-        "images": [
-            "https://file.bienici.com/photo/nexity_1_341369.jpg"
-        ],
-        "price": 644.48,
-        "date": "2019-10-05T03:10:23.291Z",
-        "size": 49.3,
-        "rooms": 2,
-        "lat": 43.61453436119326,
-        "lng": 1.4586473918720642,
-        "type": "bienici"
-    },
-    {
         "title": "Appartement",
         "description": "LA ROSERAIE, dans petite copropriété calme à 5 minutes du métro, agréable appartement deux pièces duplex lumineux, cuisine ouverte sur séjour, mezzanine, parking. Chauffage électrique. Déposer votre dossier de candidature en ligne sur notre site nexity, vous y trouverez cette annonce.\nGarantie : 584,48 €.\nDisponible le 02/12/2019.",
         "link": "https://www.seloger.com/annonces/locations/appartement/toulouse-31/bonnefoy-la-roseraie-gramont/151855541.htm?p=",
@@ -799,46 +888,6 @@
         "type": "se-loger",
         "lat": 43.5522436,
         "lng": 1.3917367
-    },
-    {
-        "title": "",
-        "description": "TOULOUSE - quartier LALANDE - En plein coeur de quartier, à 2 pas des commerces, proximité métro La vache, agréable T2 récent dans résidence fermée au calme, cuisine américaine équipée, séjour lumineux, balcon.\n1 parking sous sol sécurisé. \nproche pôle aéronautique. \nDISPONIBLE LE 30/09/2019",
-        "link": "https://www.bienici.com/annonce/pericles-27460594",
-        "images": [
-            "https://file.bienici.com/photo/pericles-27460594_a",
-            "https://file.bienici.com/photo/pericles-27460594_b",
-            "https://file.bienici.com/photo/pericles-27460594_c",
-            "https://file.bienici.com/photo/pericles-27460594_d"
-        ],
-        "price": 560,
-        "date": "2019-10-04T22:36:22.909Z",
-        "size": 45,
-        "rooms": 2,
-        "lat": 43.64554290708132,
-        "lng": 1.4327764593588475,
-        "type": "bienici"
-    },
-    {
-        "title": "",
-        "description": "TOULOUSE SAINT SIMON coté Tournefeuille - Agréable T3 en rdj dans belle résidence fermée avec piscine, tout proche centre  commercial de Diane et bus, cuisine américaine équipée, vaste séjour lumineux, terrasse, jardin clôturé sans vis à vis, nombreux rangements, parking sécurisé. Logement fonctionnel, au calme.\nDISPONIBLE LE 02/11/2019",
-        "link": "https://www.bienici.com/annonce/pericles-27460590",
-        "images": [
-            "https://file.bienici.com/photo/pericles-27460590_a",
-            "https://file.bienici.com/photo/pericles-27460590_b",
-            "https://file.bienici.com/photo/pericles-27460590_c",
-            "https://file.bienici.com/photo/pericles-27460590_d",
-            "https://file.bienici.com/photo/pericles-27460590_e",
-            "https://file.bienici.com/photo/pericles-27460590_f",
-            "https://file.bienici.com/photo/pericles-27460590_g",
-            "https://file.bienici.com/photo/pericles-27460590_h"
-        ],
-        "price": 595.24,
-        "date": "2019-10-04T22:36:22.909Z",
-        "size": 51,
-        "rooms": 3,
-        "lat": 43.55894960386744,
-        "lng": 1.367123458089203,
-        "type": "bienici"
     },
     {
         "title": "Appartement",
@@ -1666,25 +1715,6 @@
         "lng": 1.4407333
     },
     {
-        "title": "Appartement",
-        "description": "Toulouse - Bourrassol / Cartoucherie. A louer, appartement T2 de 47 m², avec une terrasse de 7 m², en rez-de-chaussée, dans une résidence de 1990, située rue des Fontaines. Composition: cuisine équipée indépendante 8.67 m², séjour 19 m² donnant sur la terrasse, chambre, salle de bain et WC séparé. Parking. Proche commerces, bus (devant), tramway (4') et métro (15'). Très calme, l'appartement ne donne pas sur la rue. Loyer: 598.00 euros dont provision sur charges: 48 euros par mois (régularisation annuelle) Honoraires charge locataire: 600 euros TTC (Frais de visite / dossier / rédaction du bail 360 euros TTC et honoraires état des lieux: 140 euros TTC) Dépôt de garantie: 550 euros ARC IMMO - Mr Luce Jacques - Plus d'informations.\nHonoraires TTC en sus : 600.00 €.\nGarantie : 550 €.\nDisponible le 01/11/2019.",
-        "link": "https://www.seloger.com/annonces/locations/appartement/toulouse-31/lardenne-les-pradettes-basso-cambo/151670773.htm?p=",
-        "images": [
-            "https://v.seloger.com/s/cdn/x/visuels/0/h/1/w/0h1witx0au037g4cflmc953l712xql3irl8ctocdl.jpg",
-            "https://v.seloger.com/s/cdn/x/visuels/1/e/l/r/1elrt2lu4ac1q2isgzjhga5b3nnnxrpwhrr6sza21.jpg",
-            "https://v.seloger.com/s/cdn/x/visuels/0/1/z/h/01zhgxfbeut0zhewiv0f3425t0i5bloa3qqpmgwbt.jpg",
-            "https://v.seloger.com/s/cdn/x/visuels/0/t/x/d/0txd2usjy6cvko59zf3x60sry32t7msdb4rdsy8x5.jpg",
-            "https://v.seloger.com/s/cdn/x/visuels/1/r/u/y/1ruythki78albyerav1r4wzrff1fgs870pzk8ja21.jpg"
-        ],
-        "price": 598,
-        "date": "2019-09-30T20:58:00",
-        "size": 47,
-        "rooms": 2,
-        "type": "se-loger",
-        "lat": 43.60162,
-        "lng": 1.3943
-    },
-    {
         "title": "Appartement 2 pièces 45 m²",
         "description": "Situé dans le sud-est toulousain, l'Ormeau est un village huppé dans la ville. Calme et résidentiel ce quartier accueille espaces verts et groupes scolaires. A quelques minutes seulement de l'hyper centre en voiture ou en bus vous apprécierez sa facilité d'accès. Dans la résidence récente AVIATEUR, au 1er étage avec ascenseur un T2 n°6, composé d'une entrée avec placard, un séjour avec cuisine ouverte de 25 m² donnant sur balcon de 7m², une chambre, une salle de bain et un WC séparé. Au sous-sol du bâtiment, une place de stationnement n°3. Eau chaude, eau froide et chauffage individuels gaz. Entretien parties communes, entretien ascenseur et espaces verts communs, compris dans les provisions sur charges mensuelles et donnant lieu à une régularisation annuelle.Les honoraires de location TTC (à la charge du locataire) incluent le montant de rédaction des états des lieux facturé pour 110,00 euros TTC, après réalisation lors de l'entrée dans les lieux.Logement disponible le 31/10/2019.Pour plus de détails sur ce logement, vous pouvez consulter la fiche descriptive de ce bien, sur notre site internet cmcic-locations.\nRéférence annonce : 25063\nHonoraires à la charge du locataire : 562 € TTC\nDépôt de garantie : 527 €\nMontant des charges : 40 € / mois",
         "link": "https://www.leboncoin.fr/locations/1683386484.htm",
@@ -1890,24 +1920,6 @@
         "lng": 1.44067
     },
     {
-        "title": "A louer, T2 en hypercentre, rue du Taur - Capitole",
-        "description": "Hypercentre Capitole \nRue du Taur (proximité métro, commerces et faculté).\n \n A louer appartement T2 de 53 m² au 2ème étage, traversant.\nSéjour, cuisine équipée (avec plaques, four et hotte), 1 chambre séparée donnant sur cour, salle de bain, WC.\nDouble vitrage.\nAppartement disponible au 17/10/2019.\n\nLoyer: 670,37€ HC + 50,00 € de provisions pour charges.\nCaution: 670,37€ \nF. Agence: 650,00€ (incluant ceux pour l'établissement de l'état des lieux).\n\nDPE: B/61\nGES: C/14.",
-        "link": "https://www.leboncoin.fr/locations/1677129236.htm",
-        "images": [
-            "https://img2.leboncoin.fr/ad-image/4f7c616f2854b80e43918b981cebe42b9202d0a0.jpg",
-            "https://img5.leboncoin.fr/ad-image/3d76fbc83e6c6916a66ede86c98357607faa9fd1.jpg",
-            "https://img4.leboncoin.fr/ad-image/59dff5d22b504803b29ebaaaa6548ce8d59fa395.jpg"
-        ],
-        "price": 721,
-        "date": "2019-09-18T13:57:02.000Z",
-        "date_index": "2019-09-18T14:28:43.000Z",
-        "size": "53",
-        "rooms": "2",
-        "type": "lbc",
-        "lat": 43.6064,
-        "lng": 1.44246
-    },
-    {
         "title": "Maison 3 pièces 55 m²",
         "description": "Maison T3 55 m² Toulouse\n\nTOULOUSE LARDENNE\nDans quartier pavillonnaire, charmante maison T 3 de 55 m², mitoyenne sur l'arrière\ndisposant d'un séjour et d'une cuisine aménagée au rez de chaussée\net de 2 chambres, une salle de bains, un WC et un cellier à l'étage.\nTerrasse couverte, jardinet clos avec un petit chalet en bois.\nLoyer : 713 euros par mois hors charges\n - Avances mensuelle sur charges récupérables : 35  euros (eau + ordures ménagères\n+ assainissement)\n - Dépôt de garantie : 713 euros TTC\n - Honoraires charge locataire : Constitution du dossier, visite,\nrédaction du bail   : 220 euros TTC   - État des lieux : 80 euros TTC\nContacter l'agence de Tournefeuille au 05.34.51.70.71\nRéférence annonce : l_1876\nHonoraires à la charge du locataire : 300 € TTC dont 80 € pour l'état des lieux\nDépôt de garantie : 713 €\nMontant des charges : 35 € / mois",
         "link": "https://www.leboncoin.fr/locations/1676936548.htm",
@@ -1926,25 +1938,24 @@
         "lng": 1.44067
     },
     {
-        "title": "Appartement 2 pièces 50 m²",
-        "description": "DALBADE\n\nDALBADE, DS IMMEUBLE CLASSE MONUMENT HISTORIQUE,  COMBLES AMENAGEES ,  SITUE AU DERNIER ETAGE COMPRENANT : PIECE A VIVRE, ESPACE KITCH EQUIPEE, CHBRE, SB,WC\n INTERIEUR DE CHARME, BRIQUES,POUTRES\n CALME, CLAIR, TRES ATYPIQUE\nRéférence annonce : 85\nHonoraires à la charge du locataire : 650 € TTC\nDépôt de garantie : 610 €\nMontant des charges : 60 € / mois\nModalité de récupération des charges locatives : provision avec régularisation annuelle",
-        "link": "https://www.leboncoin.fr/locations/1676622824.htm",
+        "title": "Toulouse-Roseraie- Appt T3 de 65 m2",
+        "description": "Toulouse, Coeur Roseraie, proximité métro Argoulets, loue appartement type 3 de 65 m2 .\nRésidence années 1980 entretenue, sécurisée et arborée.\nIl se compose d'un séjour de 20 m2. cuisine séparée ouvrant sur terrasse de 7 m2.\n2 vraies chambres, rangements.\nSalle de bains et W.C séparés.\nSecond étage avec ascenseur.\nPlace de parking privative.\nColocation possible.\nloyer 765€ C.C\nF.A 845€ T.T.C",
+        "link": "https://www.leboncoin.fr/locations/1676112790.htm",
         "images": [
-            "https://img2.leboncoin.fr/ad-image/a7d0e81409e666d51856982aa836b8208257aa5d.jpg",
-            "https://img7.leboncoin.fr/ad-image/ccf14b30d3c12d440dd418b5647b3a958ce591c5.jpg",
-            "https://img4.leboncoin.fr/ad-image/13e6c033b25e2e6df97c8f2ed931c5f0ffa1ee17.jpg",
-            "https://img0.leboncoin.fr/ad-image/1f6942ff1a967eec645e22377096a72cc735e660.jpg",
-            "https://img4.leboncoin.fr/ad-image/3b90ae04ed7f8ae6b448b103cbd29b09d178f73c.jpg",
-            "https://img0.leboncoin.fr/ad-image/b47a5ce2b337092446fc844d75fc8f1c65026a46.jpg"
+            "https://img7.leboncoin.fr/ad-image/fe8f90685df8082e24d93e7f28b8eea54138aff9.jpg",
+            "https://img6.leboncoin.fr/ad-image/4f2790f1efcbf6a00fc0775ccb14ee5fe067de79.jpg",
+            "https://img1.leboncoin.fr/ad-image/efcd2aaa87c84dfd12633d6ad89aec429c9d32e0.jpg",
+            "https://img5.leboncoin.fr/ad-image/5fe87aff6aabffd5d7c5ed778828f7227c53fed4.jpg",
+            "https://img2.leboncoin.fr/ad-image/ee29c67da0b58cf8dd4f48b70578789954e5017b.jpg"
         ],
-        "price": 670,
-        "date": "2019-09-17T12:25:21.000Z",
-        "date_index": "2019-09-17T12:25:21.000Z",
-        "size": "50",
-        "rooms": "2",
+        "price": 765,
+        "date": "2019-09-16T13:10:42.000Z",
+        "date_index": "2019-10-07T14:04:35.000Z",
+        "size": "65",
+        "rooms": "3",
         "type": "lbc",
-        "lat": 43.6041,
-        "lng": 1.44067
+        "lat": 43.60579,
+        "lng": 1.44864
     },
     {
         "title": "Joli T2 de 60 m2 à Lardenne (refait à neuf)",
@@ -1967,20 +1978,20 @@
         "lng": 1.44864
     },
     {
-        "title": "Appartement 3 pièces 61 m²",
-        "description": "Toulouse quartier Saint Martin du Touch (7 rue Nego Samouos)  à louer appartement T3 DE 61 m² dans une très agréable résidence neuve.\ncet appartement est composé d'une entrée avec placard, un séjour donnant sur une loggia  une cuisine U.S équipée, deux chambres, placard, une salle de bain, un w-c.séparé.\n2 places de parkings sous-sol\nL'appartement est proche des commerces, des entreprises aéronautiques,ainsi que de la gare T.E.R, accessibilité à la rocade arc en ciel\nRéférence annonce : 2981702\nHonoraires à la charge du locataire : 390 € TTC dont 50 € pour l'état des lieux\nDépôt de garantie : 615 €\nMontant des charges : 80 € / mois\nModalité de récupération des charges locatives : provision avec régularisation annuelle\n\nA propos de la copropriété :\nNombre de lots : 19",
-        "link": "https://www.leboncoin.fr/locations/1672726209.htm",
+        "title": "Appartement 3 pièces 70 m²",
+        "description": "TOULOUSE SAOUZELONG proche métro T3/4 72 m² 8ème ét avec asc, cellier chauff collectif ds immeuble années 60.\nParfait état, 2 balcons, double séjour, 2 chambres, SDB, wc\ndressing, parquet au sol, parking extérieur\nLoyer mensuel : 752.83 euros charges comprises dont 120 euros de provisions mensuelles sur charges récupérables + Hono agence TTC à la charge locataire : 607.51 euros (visite + rédaction bail + constitution dossier) + 150 euros pour  EDL d'entrée\nDPE D libre le 30/09/2019\nDépôt de garantie : 632.83 euros\n***\nRéférence annonce : 7257836\nHonoraires à la charge du locataire : 757 € TTC dont 150 € pour l'état des lieux\nDépôt de garantie : 632 €\nMontant des charges : 120 € / mois\nModalité de récupération des charges locatives : provision avec régularisation annuelle",
+        "link": "https://www.leboncoin.fr/locations/1672613478.htm",
         "images": [
-            "https://img7.leboncoin.fr/ad-image/5ee59fe29d773b459946f005c7907bc703938125.jpg",
-            "https://img2.leboncoin.fr/ad-image/e24a2bb15023c34c7893463b44f3d2d735d9e1fc.jpg",
-            "https://img0.leboncoin.fr/ad-image/763709d1f5ad80e069091f7d4850e6b367940fec.jpg",
-            "https://img4.leboncoin.fr/ad-image/406e7fab7e84079ff18a60c57a367b4f5f19095c.jpg",
-            "https://img6.leboncoin.fr/ad-image/8226f297c898e0fb0a29117d72d0f49f98021fad.jpg"
+            "https://img4.leboncoin.fr/ad-image/cd956ed6fa934e83d59f6a3c1c8dcc37901080c3.jpg",
+            "https://img0.leboncoin.fr/ad-image/954b72e6313e4ab79704a012487c5f6f95f06ee6.jpg",
+            "https://img5.leboncoin.fr/ad-image/ac802b49f0879722443a7c2214c2859651ea61d6.jpg",
+            "https://img3.leboncoin.fr/ad-image/6319cc5f41e8b760de698aea98bb8251f60f0db5.jpg",
+            "https://img5.leboncoin.fr/ad-image/c6328ff2626e2e5ab78b3f8d04650e0ea69b9d1b.jpg"
         ],
-        "price": 695,
-        "date": "2019-09-09T10:39:17.000Z",
-        "date_index": "2019-09-20T07:26:31.000Z",
-        "size": "61",
+        "price": 753,
+        "date": "2019-09-09T11:44:47.000Z",
+        "date_index": "2019-09-20T08:06:23.000Z",
+        "size": "70",
         "rooms": "3",
         "type": "lbc",
         "lat": 43.6041,

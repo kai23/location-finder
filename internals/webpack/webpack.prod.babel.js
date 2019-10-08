@@ -111,10 +111,10 @@ module.exports = require('./webpack.base.babel')({
     }),
 
     new WebpackPwaManifest({
-      name: 'React Boilerplate',
-      short_name: 'React BP',
-      description: 'My React Boilerplate-based project!',
-      background_color: '#fafafa',
+      name: 'Locafind',
+      short_name: 'Locafind',
+      description: 'Ne cherchez plus, trouvez !',
+      background_color: '#FFF',
       theme_color: '#b1624d',
       inject: true,
       ios: true,
@@ -139,7 +139,6 @@ module.exports = require('./webpack.base.babel')({
   ],
 
   performance: {
-    assetFilter: assetFilename =>
-      !/(\.map$)|(^(main\.|favicon\.))/.test(assetFilename),
+    assetFilter: (assetFilename) => !/(\.map$)|(^(main\.|favicon\.))/.test(assetFilename),
   },
 });

@@ -94,7 +94,7 @@ function Location({
           <Button size="sm" onClick={() => setShowMore(!showMore)} mt="1rem">
             {showMore ? 'Réduire' : 'Lire la description'}
           </Button>
-          <Button size="sm" onClick={openGoogleMaps} mt="1rem">
+          <Button disabled={lat === 0 && lng === 0} size="sm" onClick={openGoogleMaps} mt="1rem">
             <FaMapMarkerAlt />
             Situer
           </Button>
