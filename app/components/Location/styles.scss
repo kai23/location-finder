@@ -35,6 +35,8 @@
 
   .show-more-container {
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 
     button {
       border: none;

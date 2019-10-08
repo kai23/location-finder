@@ -5,7 +5,9 @@ import format from 'date-fns/format';
 import parseISO from 'date-fns/parseISO';
 import LazyLoad from 'react-lazyload';
 import { MdEuroSymbol, MdRoom } from 'react-icons/md';
-import { FaRulerHorizontal, FaExternalLinkAlt, FaRegCalendarAlt } from 'react-icons/fa';
+import {
+  FaRulerHorizontal, FaExternalLinkAlt, FaRegCalendarAlt, FaMapMarkerAlt,
+} from 'react-icons/fa';
 
 import Tag from 'components/Tag';
 
@@ -39,8 +41,21 @@ function Location({
   size,
   title,
   type,
+  lat,
+  lng,
 }) {
   const [showMore, setShowMore] = useState(false);
+
+  function openGoogleMaps() {
+    if
+    ((navigator.platform.indexOf('iPhone') !== -1)
+      || (navigator.platform.indexOf('iPad') !== -1)
+      || (navigator.platform.indexOf('iPod') !== -1)) {
+      window.open(`maps://maps.google.com/maps?daddr=${lat},${lng}&amp;ll=`);
+    } else {
+      window.open(`https://maps.google.com/maps?daddr=${lat},${lng}&amp;ll=`);
+    }
+  }
 
   return (
     <div className="location">
@@ -79,6 +94,10 @@ function Location({
           <Button size="sm" onClick={() => setShowMore(!showMore)} mt="1rem">
             {showMore ? 'Réduire' : 'Lire la description'}
           </Button>
+          <Button size="sm" onClick={openGoogleMaps} mt="1rem">
+            <FaMapMarkerAlt />
+            Situer
+          </Button>
         </div>
       </div>
 
@@ -110,10 +129,14 @@ Location.propTypes = {
   size: PropTypes.number.isRequired,
   rooms: PropTypes.number.isRequired,
   type: PropTypes.string.isRequired,
+  lat: PropTypes.string,
+  lng: PropTypes.string,
 };
 
 Location.defaultProps = {
   images: [],
+  lat: '',
+  lng: '',
 };
 
 export default Location;

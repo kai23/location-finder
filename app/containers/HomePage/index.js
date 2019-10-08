@@ -85,6 +85,8 @@ function HomePage() {
             size={parseInt(l.size, 10)}
             title={l.title}
             type={l.type}
+            lat={l.lat}
+            lng={l.lng}
           />
         )) : null}
       </div>

@@ -1,6 +1,8 @@
 .chips-container {
   display: flex;
   margin-top: 10px;
+  flex-wrap: wrap;
+  margin-left: -10px;
 }
 
 .chips {
@@ -10,13 +12,11 @@
   padding: 5px 10px;
   display: flex;
   align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
 
   span {
     margin-right: 10px;
-  }
-  
-  &:not(:first-child) {
-    margin-left: 10px;
   }
 
 }
