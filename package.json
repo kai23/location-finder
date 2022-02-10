@@ -83,7 +83,7 @@
     "ip": "1.1.5",
     "lodash": "^4.17.15",
     "minimist": "1.2.3",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "prop-types": "15.7.2",
     "pure-react-carousel": "^1.22.0",
     "react": "16.9.0",
